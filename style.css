@@ -1,0 +1,46 @@
+.container-fluid {
+    height: 100vh;
+    font-family: "poppins";
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.row {
+    background-color: #fff;
+}
+
+.ovalImg {
+    position: absolute;
+    right: 0;
+}
+
+.description {
+    margin-top: 10rem;
+}
+
+.towerImg {
+    margin-top: 5rem;
+}
+
+.playImg {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+.startBtn {
+    background-color: #432B99 !important;
+    border-color: unset !important;
+}
+
+
+
+/* /////hover///// */
+
+
+@font-face {
+    font-family: "poppins";
+    src: url(./assets/textFonts/Poppins-Regular.ttf);
+}
