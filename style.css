@@ -37,13 +37,12 @@ body::-webkit-scrollbar {
 
 .startBtn {
     background-color: #432B99 !important;
-    border-color: unset !important;
+    border-color: #432B99 !important;
 }
 
 .icons {
-    padding-top: 12px;
+    padding: 20vh 0;
 }
-
 
 .icon {
     padding: 10px;
@@ -60,11 +59,55 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
+.learn {
+    background-image: linear-gradient(to top, rgba(67, 43, 153, 0.2), rgba(125, 104, 202, 0));
+    border-radius: 0 0 85% 85%/50%;
+    padding-bottom: 10%;
+}
+
+.learnInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.learnDescription {
+    display: flex;
+    height: 2rem;
+    align-items: end;
+}
+
+.learnDescription p {
+    padding: 0 12px;
+}
+
+.learnBtns a {
+    padding: 0 12px;
+    color: #432B99;
+}
+
+.next {
+    height: 50vh;
+
+}
+
+
+
+
+
 /* /////hover///// */
 .icon:hover {
     cursor: pointer;
     box-shadow: rgb(125, 104, 202) 0px 0px 5px;
 }
+
+.learnBtns img:hover,
+.learnBtns a:hover {
+    text-shadow: rgb(125, 104, 202) 0px 0px 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 
 /* fonts and animations */
