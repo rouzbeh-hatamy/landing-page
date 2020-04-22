@@ -1,10 +1,14 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .container-fluid {
-    height: 100vh;
     font-family: "poppins";
 }
 
 .navbar {
     background-color: transparent;
+    animation: slidebottom 1s ease
 }
 
 .row {
@@ -18,16 +22,17 @@
 
 .description {
     margin-top: 10rem;
+    animation: zoomIn 1s ease
 }
 
-.towerImg {
+.video {
     margin-top: 5rem;
+    animation: slideLeft 1s ease
 }
 
 .playImg {
     position: absolute;
-    left: 35%;
-    top: 50%;
+    cursor: pointer;
 }
 
 .startBtn {
@@ -35,12 +40,71 @@
     border-color: unset !important;
 }
 
+.icons {
+    padding-top: 12px;
+}
 
+
+.icon {
+    padding: 10px;
+    border-radius: 10px;
+    border: #432B99 solid 1px;
+    width: fit-content;
+}
+
+.surveys .icon {
+    background-color: #432B99;
+}
+
+.iconDescription h3 {
+    cursor: pointer;
+}
 
 /* /////hover///// */
+.icon:hover {
+    cursor: pointer;
+    box-shadow: rgb(125, 104, 202) 0px 0px 5px;
+}
 
 
+/* fonts and animations */
 @font-face {
     font-family: "poppins";
     src: url(./assets/textFonts/Poppins-Regular.ttf);
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(.05);
+    }
+
+    100% {}
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(.05);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {}
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(250px)
+    }
+
+    100% {}
+}
+
+@keyframes slidebottom {
+    0% {
+        transform: translateY(-50px)
+    }
+
+    100% {}
 }

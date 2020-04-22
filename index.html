@@ -13,6 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -21,9 +22,10 @@
 <body>
     <div class="container-fluid">
         <img src="./assets/Oval.png" alt="" class="ovalImg img-fluid ">
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top offset-6">
+        <nav class="navbar navbar-expand-lg navbar-light offset-6">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -47,7 +49,7 @@
 
             </div>
         </nav>
-        <div class="row first">
+        <div class="row videoInfo">
             <div class="col-5 offset-1 description">
                 <h1 class="col-10">A guide to <strong>Rocky</strong> mountain vacations</h1>
                 <p class="col-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, rerum! Voluptatibus
@@ -55,13 +57,52 @@
                     officiis architecto earum, alias, sed voluptates! Delectus, amet!</p>
                 <button type="button" class="btn btn-primary btn-lg startBtn ">Get started</button>
             </div>
-            <div class="col-6 video">
+            <div class="col-6 video d-flex justify-content-center align-items-center">
                 <img src="./assets/play.png" alt="" class="img-fluid playImg">
                 <img src="./assets/Button 2.png" alt="" class="img-fluid towerImg">
             </div>
         </div>
+        <div class="container icons">
+            <div class="row">
+                <div class="clickText col-3 d-flex flex-column justify-content-center " data-aos="fade-right">
+                    <div class="icon">
+                        <img src="./assets/worldBook.svg" alt="">
+                    </div>
+                    <div class="iconDescription">
+                        <h3>First click test</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, adipisci?</p>
+                    </div>
+                </div>
+                <div class="surveys col-3  d-flex flex-column justify-content-center" data-aos="zoom-in">
+                    <div class="icon">
+                        <img src="./assets/biohazard.svg" alt="">
+                    </div>
+                    <div class="iconDescription">
+                        <h3>Design serveys</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, adipisci?</p>
+                    </div>
+                </div>
+                <div class="preference col-3  d-flex flex-column justify-content-center" data-aos="zoom-in">
+                    <div class="icon">
+                        <img src="./assets/handshake.svg" alt="">
+                    </div>
+                    <div class="iconDescription">
+                        <h3>Preference tests</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, adipisci?</p>
+                    </div>
+                </div>
+                <div class="astronaut col-3  d-flex flex-column justify-content-center" data-aos="fade-left">
+                    <div class="icon">
+                        <img src="./assets/person.svg" alt="">
+                    </div>
+                    <div class="iconDescription">
+                        <h3>User astronaut</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, adipisci?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -71,6 +112,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="./scripts.js" async defer></script>
 </body>
 
