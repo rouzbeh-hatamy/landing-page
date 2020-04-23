@@ -2,6 +2,12 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+h1,
+span,
+p {
+    cursor: default;
+}
+
 .container-fluid {
     font-family: "poppins";
 }
@@ -114,15 +120,12 @@ body::-webkit-scrollbar {
     color: darkslateblue;
 }
 
-.aboutUs {
+.recent {
     height: 50vh;
 }
 
-h1,
-span,
-p {
-    cursor: default;
-}
+
+
 
 /* /////hover///// */
 .icon:hover {
@@ -135,6 +138,11 @@ p {
     text-shadow: rgb(125, 104, 202) 0px 0px 5px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.ceoPic:hover {
+    box-shadow: rgb(125, 104, 202) 0px 0px 5px;
+    cursor: pointer;
 }
 
 h2:hover,
