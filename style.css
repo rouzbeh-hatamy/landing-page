@@ -120,12 +120,34 @@ p {
     color: darkslateblue;
 }
 
-.recent {
-    height: 50vh;
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
+.aboutUs div h2 {
+    text-align: center;
+}
 
+.recent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.recent div h2 {
+    text-align: center;
+}
+
+.recentPost span {
+    color: gray;
+}
+
+.recentPost span strong {
+    color: black;
+}
 
 /* /////hover///// */
 .icon:hover {
@@ -143,6 +165,20 @@ p {
 .ceoPic:hover {
     box-shadow: rgb(125, 104, 202) 0px 0px 5px;
     cursor: pointer;
+}
+
+.recentPost img:hover {
+    box-shadow: gray 0px 0px 5px;
+    cursor: pointer;
+}
+
+.recentPost span strong:hover {
+    text-shadow: rgb(125, 104, 202) 0px 0px 5px;
+    cursor: pointer;
+}
+
+.subscribe {
+    height: 50vh;
 }
 
 h2:hover,
