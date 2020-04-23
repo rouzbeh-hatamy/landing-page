@@ -178,6 +178,53 @@ p {
 }
 
 .subscribe {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.subInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #432B99;
+    height: 40vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.subInner div {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgTop {
+    align-self: flex-end;
+    width: 30%;
+    transform: rotate(180deg);
+}
+
+.input-group {
+    width: 40% !important;
+}
+
+.form-control {
+    background: none !important;
+    color: white !important;
+    height: inherit !important;
+}
+
+.form-control::placeholder {
+    color: white !important;
+}
+
+.imgBut {
+    align-self: start;
+    width: 30%;
+}
+
+.footer {
     height: 50vh;
 }
 
