@@ -191,7 +191,7 @@ p {
     border: none !important;
 }
 
-.btn {
+.email {
     border: none !important;
     border-left: solid 1px white !important;
     margin: 5px !important;
@@ -233,6 +233,11 @@ p {
 .footerLists ul li {
     padding: 3px 0;
     color: gray;
+}
+
+.aboutUsText {
+    text-align: center;
+
 }
 
 /* /////hover///// */
@@ -308,4 +313,94 @@ h3:hover {
     }
 
     100% {}
+}
+
+/* responsive */
+@media screen and (max-width:768px) {
+
+
+    .px-5,
+    span,
+    h5 {
+        text-align: center;
+    }
+
+    .ovalImg {
+        right: -30%;
+        height: 70vh !important;
+
+    }
+
+    .signBtns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .learnPicImg {
+        width: 70vw !important;
+    }
+
+    .learnDescription {
+        padding: 10% 0;
+    }
+
+    .learnBtns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .aboutUs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutUsText {
+        display: none;
+    }
+
+    .aboutUsContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .recentPosts {
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .subInner div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .input-group {
+        width: 80% !important;
+        flex-direction: row !important;
+    }
+
+    .footer {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footerDescription {
+        display: none;
+    }
 }
