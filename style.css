@@ -1,7 +1,3 @@
-body::-webkit-scrollbar {
-    display: none;
-}
-
 h1,
 span,
 p {
@@ -317,7 +313,10 @@ h3:hover {
 
 /* responsive */
 @media screen and (max-width:768px) {
-
+    body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+    }
 
     .px-5,
     span,
@@ -326,15 +325,22 @@ h3:hover {
     }
 
     .ovalImg {
-        right: -30%;
-        height: 70vh !important;
+        display: none;
 
+    }
+
+    .navbar-collapse {
+        padding: 0 14px;
+        background-image: linear-gradient(to bottom, rgba(67, 43, 153, 0.8), rgba(125, 104, 202, 0));
+        border-radius: 10px;
+        border-bottom: none;
+        text-align: center;
     }
 
     .signBtns {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         height: 15vh;
     }
